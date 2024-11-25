@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Certificate</title>
+    <link rel="stylesheet" href="cert.css">
+</head>
+<body>
+    <a id="download-link" href="file/Introduction_to_Internet_of_Things.pdf" class="certificate-button" download>Course Certificate</a>
+    <script>
+        // Automatically trigger the download when the page loads
+        window.onload = function () {
+            const downloadLink = document.getElementById('download-link');
+            downloadLink.click();
+        };
+    </script>
+</body>
+</html>
