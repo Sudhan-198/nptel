@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* White background */
+}
+
+.certificate-button {
+    background-color: #007bff; /* Blue background for the button */
+    color: white; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow for a lifted look */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.certificate-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
